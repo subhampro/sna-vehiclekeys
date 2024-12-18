@@ -35,7 +35,7 @@ Please join my discord : https://discord.gg/kvSwVzD8Rd
 
 - Add in qb-core/shared/items.lua
 ```lua
-    vehiclekey                   = { name = 'vehiclekey', label = 'Vehicle key', weight = 10, type = 'item', image = 'vehiclekey.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = "This is a car key, take good care of it, if you lose it you probably won't be able to use your car" },
+['vehiclekey'] = { ['name'] = 'vehiclekey', ['label'] = 'Vehicle key', ['weight'] = 10, ['type'] = 'item', ['image'] = 'vehiclekey.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = "This is a car key, take good care of it, if you lose it you probably won't be able to use your car" },
 ```
 
 Depending of your qb-inventory version some changes may or may not be required
